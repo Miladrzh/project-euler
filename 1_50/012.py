@@ -7,8 +7,8 @@ def div_count(a):
         if a % i == 0:
             cnt += 1
             if a // i != i:
-                cnt += 1;
-    return cnt;
+                cnt += 1
+    return cnt
 
 
 sum = 1

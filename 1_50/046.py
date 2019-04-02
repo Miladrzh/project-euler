@@ -1,15 +1,7 @@
 # in the name of God
 import math
 
-
-def is_prime(num):
-    dividers = 0
-    for i in range(2, int(math.sqrt(num)) + 1):
-        if num % i == 0:
-            dividers += 1
-    if dividers == 0:
-        return True
-    return False
+from utils.prime import is_prime
 
 
 def check(num):
